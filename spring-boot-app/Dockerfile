@@ -15,7 +15,7 @@ EXPOSE 8080
 #COPY ${JAR_FILE} app.jar
 
 # ADD target/springboot-docker-0.0.1-SNAPSHOT.jar /opt/app/app.jar
-ADD target/spring-boot-app-0.0.1-SNAPSHOT.jar book-service.jar
+ADD target/spring-boot-app-0.0.1-SNAPSHOT.jar /app
 
 # COPY target/springboot-docker-0.0.1-SNAPSHOT.jar /opt/app/app.jar
 #COPY ${JAR_FILE} app.jar
